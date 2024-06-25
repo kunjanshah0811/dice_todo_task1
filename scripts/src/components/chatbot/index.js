@@ -63,10 +63,8 @@ const Chatbot = () => {
                     <div className="bg-white rounded-lg w-full max-w-md p-4">
                         <div className="flex justify-between items-center mb-4">
                         <h2 className="text-lg font-bold py-2 px-4 rounded-lg bg-blue-500 text-white">
-                                
-                                    Welcome to DICE GroupChatbot
-                                
-                            </h2>
+                            Welcome to DICE Group Chatbot
+                        </h2>
                             <button
                                 className="text-gray-500 hover:text-gray-700"
                                 onClick={handleClose}
