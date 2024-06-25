@@ -9,6 +9,9 @@ import SEO from '../components/seo';
 import SideMenu from '../components/sidemenu';
 import Social from '../components/social';
 import TwitterFeed from '../components/twitterFeed';
+import Chatbot from '../components/chatbot';
+
+
 
 export default function Home() {
   const heroRef = React.createRef();
@@ -74,12 +77,15 @@ export default function Home() {
               <Link to="collaborators/activeprojects/">collaborating</Link> with
               us. Please scroll down for more info on our current activities.{' '}
             </p>
+            <div className="group-button">
             <button
               onClick={() => navigate('/collaborators/groups/')}
               className="action-button"
             >
               Learn more
             </button>
+            <Chatbot></Chatbot>
+            </div>
           </div>
         </div>
       </section>

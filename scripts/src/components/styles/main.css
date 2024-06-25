@@ -335,6 +335,11 @@ body {
   @apply mb-6;
 }
 
+.group-button{
+  display:flex;
+  gap:5px;
+
+}
 .has-background-light {
   background-color: #f5f5f5 !important;
 }
