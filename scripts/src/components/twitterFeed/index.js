@@ -36,7 +36,7 @@ const injectTwitterStyle = () => {
   }
   `;
   // add style to iframe
-  timeline.contentWindow.document.head.appendChild(style);
+  //timeline.contentWindow.document.head.appendChild(style);
 };
 
 export default () => (
