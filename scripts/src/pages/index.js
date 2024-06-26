@@ -11,8 +11,6 @@ import Social from '../components/social';
 import TwitterFeed from '../components/twitterFeed';
 import Chatbot from '../components/chatbot';
 
-
-
 export default function Home() {
   const heroRef = React.createRef();
   const fundedRef = React.createRef();
