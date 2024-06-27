@@ -82,7 +82,7 @@ export default function Home() {
             >
               Learn more
             </button>
-            <Chatbot></Chatbot>
+            <Chatbot ></Chatbot>
             </div>
           </div>
         </div>
