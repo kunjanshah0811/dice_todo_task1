@@ -8,6 +8,7 @@ import Header from './header';
 import Image from './image';
 import './styles/main.css';
 import Table from './table';
+import Chatbot from '../components/chatbot';
 
 // components that are exposed to MDX files
 const mdxComponents = { Image, Link, ExternalLink, Table };
@@ -24,6 +25,7 @@ export default function Layout({ children, withContainer = true }) {
         ) : (
           <>{children}</>
         )}
+        <Chatbot />
         <Footer />
       </MDXProvider>
     </MdxEmbedProvider>
